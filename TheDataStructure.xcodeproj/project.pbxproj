@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A682D3912557FBBE00230977 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A682D3902557FBBE00230977 /* main.c */; };
+		A6EA94032562BD2D000CD579 /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93FD2562BD2D000CD579 /* sort.c */; };
+		A6EA94042562BD2D000CD579 /* struct.c in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93FE2562BD2D000CD579 /* struct.c */; };
+		A6EA94052562BD2D000CD579 /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = A6EA94002562BD2D000CD579 /* List.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		A682D38D2557FBBE00230977 /* TheDataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheDataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		A682D3902557FBBE00230977 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A6EA93FD2562BD2D000CD579 /* sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
+		A6EA93FE2562BD2D000CD579 /* struct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = struct.c; sourceTree = "<group>"; };
+		A6EA93FF2562BD2D000CD579 /* struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = struct.h; sourceTree = "<group>"; };
+		A6EA94002562BD2D000CD579 /* List.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = List.c; sourceTree = "<group>"; };
+		A6EA94012562BD2D000CD579 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		A6EA94022562BD2D000CD579 /* sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,12 @@
 		A682D38F2557FBBE00230977 /* TheDataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				A6EA94002562BD2D000CD579 /* List.c */,
+				A6EA94012562BD2D000CD579 /* List.h */,
+				A6EA93FD2562BD2D000CD579 /* sort.c */,
+				A6EA94022562BD2D000CD579 /* sort.h */,
+				A6EA93FE2562BD2D000CD579 /* struct.c */,
+				A6EA93FF2562BD2D000CD579 /* struct.h */,
 				A682D3902557FBBE00230977 /* main.c */,
 			);
 			path = TheDataStructure;
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EA94042562BD2D000CD579 /* struct.c in Sources */,
 				A682D3912557FBBE00230977 /* main.c in Sources */,
+				A6EA94032562BD2D000CD579 /* sort.c in Sources */,
+				A6EA94052562BD2D000CD579 /* List.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
