@@ -13,9 +13,14 @@
 
 //    主函数
 int main() {
-    int a[5] = {6,5,12,3,5};
+//    int a[5] = {6,5,12,3,5};
 //    bubbleSort(a, 5);
-    selectSort(a, 5);
+//    selectSort(a, 5);
+    
+    int a[] = { 10, 6, 7, 1, 3, 9, 4, 2 ,15};
+    merge_sort(a, 0, sizeof(a) / sizeof(int)-1);
+    PrintArray(a, sizeof(a) / sizeof(int));
+
     return 0;
 }
 
