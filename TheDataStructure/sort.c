@@ -7,6 +7,14 @@
 
 #include "sort.h"
 
+void Swap(int *p, int *q)
+{
+    int buf;
+    buf = *p;
+    *p = *q;
+    *q = buf;
+    return;
+}
 //打印数组
 void PrintArray(int *a, int len)
 {
@@ -21,9 +29,7 @@ void bubbleSort(int* a, int n){
         bool flag = false;
         for (int j = 0; j<n-i-1; j++) {
             if (a[j] > a[j+1]) {
-                int temp = a[j];
-                a[j] = a[j+1];
-                a[j+1] = temp;
+                Swap(&a[j], &a[j+1]);
                 flag = true; // 表示有数据交换
             }
         }
@@ -118,5 +124,26 @@ void merge_sort(int* arr, int first, int last){
     return;
 }
 
+int quick_partition(int* arr,int first,int last){
+    int pivot = arr[last];
+    int i = first;
+    for (int j = first; j<last; j++) {
+        if (arr[j] < pivot) {
+            Swap(&arr[i], &arr[j]);
+            i++;
+        }
+    }
+    Swap(&arr[i], &arr[last]);
+    return i;
+}
+
+void quick_sort(int* arr, int first, int last) {
+    if (first >= last) {
+        return;
+    }
+    int mid = quick_partition(arr, first, last);
+    quick_sort(arr, first, mid-1);
+    quick_sort(arr, mid+1, last);
+}
 
 
