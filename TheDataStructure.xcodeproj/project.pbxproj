@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A602A6A125DCFCCA007A8E9E /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = A602A6A025DCFCCA007A8E9E /* test.c */; };
 		A682D3912557FBBE00230977 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A682D3902557FBBE00230977 /* main.c */; };
 		A6A34DA2256A0CD900C18116 /* binarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = A6A34DA1256A0CD900C18116 /* binarySearch.c */; };
+		A6E330FD2595EEA40062DF14 /* tree.c in Sources */ = {isa = PBXBuildFile; fileRef = A6E330FC2595EEA40062DF14 /* tree.c */; };
 		A6EA94032562BD2D000CD579 /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93FD2562BD2D000CD579 /* sort.c */; };
 		A6EA94042562BD2D000CD579 /* struct.c in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93FE2562BD2D000CD579 /* struct.c */; };
 		A6EA94052562BD2D000CD579 /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = A6EA94002562BD2D000CD579 /* List.c */; };
@@ -27,10 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A602A69F25DCFCCA007A8E9E /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		A602A6A025DCFCCA007A8E9E /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 		A682D38D2557FBBE00230977 /* TheDataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheDataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		A682D3902557FBBE00230977 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A6A34DA0256A0CD900C18116 /* binarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binarySearch.h; sourceTree = "<group>"; };
 		A6A34DA1256A0CD900C18116 /* binarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binarySearch.c; sourceTree = "<group>"; };
+		A6E330FB2595EEA40062DF14 /* tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		A6E330FC2595EEA40062DF14 /* tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tree.c; sourceTree = "<group>"; };
 		A6EA93FD2562BD2D000CD579 /* sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
 		A6EA93FE2562BD2D000CD579 /* struct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = struct.c; sourceTree = "<group>"; };
 		A6EA93FF2562BD2D000CD579 /* struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = struct.h; sourceTree = "<group>"; };
@@ -78,6 +84,10 @@
 				A6EA93FF2562BD2D000CD579 /* struct.h */,
 				A6A34DA0256A0CD900C18116 /* binarySearch.h */,
 				A6A34DA1256A0CD900C18116 /* binarySearch.c */,
+				A6E330FB2595EEA40062DF14 /* tree.h */,
+				A6E330FC2595EEA40062DF14 /* tree.c */,
+				A602A69F25DCFCCA007A8E9E /* test.h */,
+				A602A6A025DCFCCA007A8E9E /* test.c */,
 			);
 			path = TheDataStructure;
 			sourceTree = "<group>";
@@ -139,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6A34DA2256A0CD900C18116 /* binarySearch.c in Sources */,
+				A602A6A125DCFCCA007A8E9E /* test.c in Sources */,
 				A6EA94042562BD2D000CD579 /* struct.c in Sources */,
 				A682D3912557FBBE00230977 /* main.c in Sources */,
+				A6E330FD2595EEA40062DF14 /* tree.c in Sources */,
 				A6EA94032562BD2D000CD579 /* sort.c in Sources */,
 				A6EA94052562BD2D000CD579 /* List.c in Sources */,
 			);

@@ -125,15 +125,18 @@ void merge_sort(int* arr, int first, int last){
 }
 
 int quick_partition(int* arr,int first,int last){
+    PrintArray(arr, 9);
     int pivot = arr[last];
     int i = first;
     for (int j = first; j<last; j++) {
         if (arr[j] < pivot) {
             Swap(&arr[i], &arr[j]);
+            PrintArray(arr, 9);
             i++;
         }
     }
     Swap(&arr[i], &arr[last]);
+    PrintArray(arr, 9);
     return i;
 }
 
